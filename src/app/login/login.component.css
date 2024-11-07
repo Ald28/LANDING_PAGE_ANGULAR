@@ -1,0 +1,21 @@
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+
+/* Asegura que los botones estén uno debajo del otro y que el espaciado sea adecuado */
+.btn-block {
+    display: block; 
+    width: 100%; /* Hace que el botón ocupe todo el ancho del contenedor */
+    margin-bottom: 10px; /* Añade espacio entre los botones */
+  }
+  
+  /* Estilo específico para el botón de Sign in */
+  .btn-signin {
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    padding: 15px 20px; /* Ajusta el padding para hacerlo más grande */
+  }
+  

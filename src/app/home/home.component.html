@@ -1,0 +1,61 @@
+<!-- navbar.component.html -->
+
+<div class="container text-center my-5">
+  <h1 class="display-4 text-primary fw-bold">Bienvenido al Home</h1>
+  <p class="lead">Descubre nuestros servicios y productos destacados</p>
+</div>
+
+<div id="carouselExampleAutoplaying" class="carousel slide container shadow-lg" data-bs-ride="carousel">
+  <div class="carousel-inner rounded">
+      <div class="carousel-item active">
+          <img [src]="img2" class="d-block w-100" alt="Imagen 1">
+      </div>
+      <div class="carousel-item">
+        <img [src]="img3" class="d-block w-100" alt="Imagen 2">
+      </div>
+      <div class="carousel-item">
+          <img [src]="img4" class="d-block w-100" alt="Imagen 3">
+      </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<div class="container d-flex justify-content-around mt-5">
+  <div class="card shadow" style="width: 18rem;">
+      <img [src]="img2" class="card-img-top rounded-top" alt="Producto 1">
+      <div class="card-body">
+          <h5 class="card-title fw-bold">Producto 1</h5>
+          <p class="card-text text-muted">Explora las características y beneficios de nuestro producto estrella.</p>
+          <a href="#" class="btn btn-primary">Ver más</a>
+      </div>
+  </div>
+
+  <div class="card shadow" style="width: 18rem;">
+      <img [src]="img3" class="card-img-top rounded-top" alt="Producto 2">
+      <div class="card-body">
+          <h5 class="card-title fw-bold">Producto 2</h5>
+          <p class="card-text text-muted">Descubre la solución perfecta para tus necesidades.</p>
+          <a href="#" class="btn btn-primary">Ver más</a>
+      </div>
+  </div>
+
+  <div class="card shadow" style="width: 18rem;">
+      <img [src]="img4" class="card-img-top rounded-top" alt="Producto 3">
+      <div class="card-body">
+          <h5 class="card-title fw-bold">Producto 3</h5>
+          <p class="card-text text-muted">Innovación y calidad en cada detalle de este producto.</p>
+          <a href="#" class="btn btn-primary">Ver más</a>
+      </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+  crossorigin="anonymous"></script>
